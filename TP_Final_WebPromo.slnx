@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="AccesoDatos/ConexionBD.csproj" Id="00eb56d6-6d12-4409-bcc2-cc852422d0de" />
+  <Project Path="Dominio/Dominio.csproj" Id="b009fab7-2863-4fd4-9db9-24b5b4e13e16" />
+  <Project Path="Negocio/Negocio.csproj" Id="06e65f91-fbe6-4a85-ade4-83e141ea0e1a" />
+  <Project Path="TP_WebPromo/TP_WebPromo.csproj" Id="3b719739-8ce6-465a-a832-d326ba411c35" />
+</Solution>
