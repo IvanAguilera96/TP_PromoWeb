@@ -4,7 +4,8 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <asp:Label Text="Ingresá el codigo de tu voucher!" ID ="lblText" runat="server" />
     <br />
-    <asp:TextBox id="txtText" runat="server" />
+    <asp:TextBox id="txtVoucher" runat="server" />
+    <asp:Label Text="" ID ="lblError" ForeColor="Red" runat="server" />
     <br />
-    <asp:Button Text="Siguiente" ID="btnSiguiente" class="btn btn-primary btn-sm" runat="server" />
+    <asp:Button Text="Siguiente" ID="btnSiguiente" Onclick="btnSiguiente_Click" class="btn btn-primary btn-sm" runat="server" />
 </asp:Content>
