@@ -36,6 +36,9 @@ namespace Negocio
                     art.Categoria.Descripcion = (String)datos.Lector["DescripcionC"];
                     art.Precio = (decimal)datos.Lector["Precio"];
 
+                    ImagenNegocio imgNegocio = new ImagenNegocio();
+                    art.Imagenes = imgNegocio.buscarImagenes(art.IdArticulo);
+
                     lista.Add(art);
                 }
 

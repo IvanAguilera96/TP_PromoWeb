@@ -1,4 +1,4 @@
-﻿using ArticuloNegocio;
+﻿using Negocio;
 using Dominio;
 using System;
 using System.Collections.Generic;
