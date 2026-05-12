@@ -28,7 +28,13 @@ namespace TP_WebPromo
 
         protected void btnSeleccionar_Click(object sender, EventArgs e)
         {
+            // Recuepero el id del premio elegido
+            string idPremio = ((Button)sender).CommandArgument;
 
+            // Guardo el premio elegido en la session para usarlo en la pantalal registro
+            Session.Add("idSeleccionado", idPremio);
+
+            Response.Redirect("Registro.aspx", false);
         }
     }
 }
